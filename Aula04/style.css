@@ -1,0 +1,43 @@
+#corViolet{
+    color: blueviolet;
+}
+.corAzul{
+    color: aqua;
+}
+
+h3, h4{ 
+    color: blue;
+    text-align: justify;
+}
+
+.dotted{border-style: dotted;}
+.misto{border-style: dotted dashed solid double;}
+
+#pixel {border-width: 10px;
+    margin-top: 25px; margin-bottom: 50px; margin-left: 75px; margin-right: 100px;
+    border-style: solid;
+    border-color: yellow;
+    padding-top: 25px;
+    padding-bottom: 50px;
+    height: 100px;
+    color: gray;
+    width: 130px;
+}
+
+a:hover{
+    color: green;
+}
+#cor2 {border-color: blueviolet;}
+
+table, td, th {
+    border: 1px solid black;
+}
+
+table {
+    width: 100px;
+    border-collapse: collapse;
+}
+
+#div1 {
+    background-color: blue; color: white;
+}

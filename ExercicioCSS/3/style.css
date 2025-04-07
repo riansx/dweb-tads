@@ -1,0 +1,24 @@
+#cabecalho {
+    background-color: grey;
+    text-align: center;
+}
+
+#conteudo {
+    background-color: white;
+    margin: 0 auto;
+}
+
+.paragrafo {
+    line-height: 1.5;
+    text-align: justify;
+    max-width: 500px;
+    margin: 10px auto;
+}
+
+#rodape {
+    background-color: rgb(73, 63, 63);
+    color: white;
+    text-align: center;  
+    max-width: 800px;
+    margin: 20px auto;
+}

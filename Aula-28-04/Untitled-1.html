@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de form</title>
+</head>
+<body>
+    <form name = "form1" id="form1" action="cadastro.php" method="post">
+        <label for="fname">Nome da Pessoa:</label><br>
+        <input type="text" id="fname" name = "fname" > <br>
+        <label for="fsobrenome">Sobrenome da Pessoa:</label><br>
+        <input type="text" id="fsobrenome" name = "fsobrenome"><br>
+        <label for="carros">Escolha um carro</label><br>
+        <select name="carros" id="carros">
+            <option value="VW">Volkswagen</option>
+            <option value="Ferrari">Ferrari</option>
+            <option value="Fiat">Fiat</option>
+            <option value="BYD">BYD</option>
+        </select><br><br>
+        <input type="submit" value="Enviar">
+    </form>
+    
+</body>
+</html>
